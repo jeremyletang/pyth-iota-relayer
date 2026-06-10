@@ -59,6 +59,7 @@ impl PythUpdater {
         })
     }
 
+    #[allow(clippy::too_many_arguments)]
     pub async fn submit(
         &self,
         client: &Client,

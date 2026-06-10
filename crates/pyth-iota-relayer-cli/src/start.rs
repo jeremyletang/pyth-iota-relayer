@@ -222,6 +222,7 @@ async fn tick(
     }
 }
 
+#[allow(clippy::too_many_arguments)]
 async fn submit_chunk(
     hermes: &HermesClient,
     client: &Client,
